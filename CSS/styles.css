@@ -1,14 +1,15 @@
 :root {
   --main-color: #afbdb9;
   --contact-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --all-buttons: #4e5c58;
 }
 html {
-  height: 250%;
+  height: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(#ecf6f3, #fff, #ecf6f3);
+  background: linear-gradient(#fff,#daefe9, #c5d7d2, #c5d7d2, #fff);
 }
 h1,
 h2,
@@ -29,7 +30,10 @@ h3 {
   font-weight: bold;
   font-size: 30px;
 }
-
+img{
+  border-radius: 5px;
+  width: 300px;
+}
 .contact,
 .about {
   font-style: none;
@@ -40,8 +44,7 @@ h3 {
   border-width: 1px;
   border-color: var(--main-color);
 }
-.contact-button,
-.about-button,
+.top-buttons,
 .project-buttons {
   background-color: var(--main-color);
   color: #ffff;
@@ -51,12 +54,12 @@ h3 {
   box-shadow: var(--contact-shadow);
   text-align: center;
   display: block;
+  width: fit-content;
 }
-.contact-button:hover,
-.about-button:hover,
+.top-buttons:hover,
 .project-buttons:hover {
   color: var(--main-color);
-  background-color: rgb(110, 109, 110);
+  background-color: var(--all-buttons);
   transition: 0.25s;
 }
 
@@ -65,7 +68,7 @@ h3 {
   flex-direction: row;
 }
 .para {
-  background-color: rgb(244, 252, 249);
+  background-color: transparent;
   margin: 10px;
   padding: 10px;
   border-radius: 3px;
@@ -80,8 +83,8 @@ h3 {
 }
 .email {
   text-align: center;
-  margin-top: 30px;
-  font-size: 25px;
+  margin: 30px;
+  font-size: 20px;
   text-decoration: none;
   color: #797a7a;
 }
@@ -92,4 +95,30 @@ h3 {
 }
 .rows {
   margin-bottom: 100px;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  img {
+    display: none;
+  }
+  .top-buttons {
+    margin-top: 60px;
+  }
+  .project-buttons {
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .paragraphs {
+    display: block;
+  }
+  .para {
+    margin-top: 30px;
+    background-color: transparent;
+    text-align: center;
+  }
 }
