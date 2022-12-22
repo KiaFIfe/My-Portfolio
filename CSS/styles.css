@@ -1,38 +1,41 @@
 :root {
   --main-color: #afbdb9;
-  --contact-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --contact-shadow: rgba(62, 70, 69, 0.35) 0px 5px 15px;
   --all-buttons: #4e5c58;
 }
 html {
   height: 100%;
 }
 body {
+  font-family: Playfair Display, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(#fff,#daefe9, #c5d7d2, #c5d7d2, #fff);
 }
 h1,
 h2,
 h3,
 h4 {
-  text-align: center;
   margin: 0;
   opacity: 0.8;
 }
 h1 {
-  font-size: 90px;
+  font-size: 70px;
+  line-height: 1.2;
 }
 h2 {
-  font-size: 60px;
+  font-size: 40px;
 }
-h3 {
-  opacity: 0.7;
-  font-weight: bold;
-  font-size: 30px;
-}
-img{
+.project-images {
   border-radius: 5px;
-  width: 300px;
+  width: 200px;
+}
+.img-container {
+  background-color: var(--main-color);
+  width: fit-content;
+  height: fit-content;
+  min-height: 350px;
+  border-radius: 4px;
+  box-shadow: var(--contact-shadow);
 }
 .contact,
 .about {
@@ -66,6 +69,11 @@ img{
 .paragraphs {
   display: flex;
   flex-direction: row;
+}
+.project-titles {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 30px;
 }
 .para {
   background-color: transparent;
@@ -105,6 +113,9 @@ img{
   }
   img {
     display: none;
+  }
+  .img-container {
+    display: none !important;
   }
   .top-buttons {
     margin-top: 60px;
