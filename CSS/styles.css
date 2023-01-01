@@ -10,6 +10,7 @@ body {
   font-family: Playfair Display, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
+  background-color: rgb(247, 247, 245);
 }
 h1,
 h2,
@@ -24,6 +25,9 @@ h1 {
 }
 h2 {
   font-size: 40px;
+}
+.headings{
+  margin-left: 15px;
 }
 .project-images {
   border-radius: 5px;
@@ -58,6 +62,9 @@ h2 {
   text-align: center;
   display: block;
   width: fit-content;
+}
+.project-buttons {
+  margin: 30px auto;
 }
 .top-buttons:hover,
 .project-buttons:hover {
@@ -123,6 +130,7 @@ h2 {
   .project-buttons {
     margin: 10px;
     margin-top: 30px;
+    display: block;
   }
   .paragraphs {
     display: block;
