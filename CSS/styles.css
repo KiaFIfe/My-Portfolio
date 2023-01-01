@@ -35,11 +35,22 @@ h2 {
 }
 .img-container {
   background-color: var(--main-color);
+  opacity: 0.8;
   width: fit-content;
   height: fit-content;
   min-height: 350px;
   border-radius: 4px;
   box-shadow: var(--contact-shadow);
+}
+.p-title{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.proj-para{
+  text-align: center;
+  margin-bottom: 40px;
 }
 .contact,
 .about {
