@@ -42,13 +42,13 @@ h2 {
   border-radius: 4px;
   box-shadow: var(--contact-shadow);
 }
-.p-title{
+.p-title {
   text-align: center;
   margin-bottom: 50px;
   font-size: 35px;
   font-weight: bold;
 }
-.proj-para{
+.proj-para {
   text-align: center;
   margin-bottom: 40px;
 }
