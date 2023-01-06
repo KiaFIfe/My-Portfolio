@@ -13,6 +13,12 @@
       content=" A showcase some of the projects that Likia Fife has been working on Whilst learning to code"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Noto+Serif+Khojki:wght@400;600&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,8 +37,11 @@
     <nav class="navbar navbar-expand-lg bg-dark p-3 sticky-top opacity-75">
       <div class="container-fluid border p-4">
         <a class="navbar-brand text-bg-dark" href="/" title="Home"
-          >Likia Fife</a
-        >
+          ><img
+            src="images/imageedit_9_7038589381.png"
+            class="logo-nav"
+            alt="logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -70,14 +79,6 @@
                 target="_blank"
                 title="Github"
                 >Github repositories</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-bg-dark"
-                href="/about.html#contact-me"
-                title="Contact me"
-                >Contact Me</a
               >
             </li>
             <li class="nav-item">
@@ -131,11 +132,13 @@
           </p>
           <a href="#" class="project-buttons p-2">Time App</a>
         </div>
-        <div class="col d-none d-lg-block">
-          <div class="img-container mt-4 d-flex justify-content-center p-4">
+        <div class="col d-none d-lg-block ms-5">
+          <div
+            class="img-container mt-4 ms-5 d-flex justify-content-center p-4"
+          >
             <img
               src="/images/time.png"
-              class="project-images"
+              class="project-images ms-5"
               alt="Time project"
             />
           </div>
@@ -166,21 +169,22 @@
     </div>
     <div class="d-flex justify-content-center"></div>
     <div class="work-container border">
-      <h3>Work Inquiry</h3>
-      <p>I would love to work with you</p>
+      <h3 class="work-inquiry">Work Inquiry</h3>
+      <p class="footer-work-message mt-3">I would love to work with you</p>
       <footer>
         <a href="mailto:likiafife1@googlemail.com"
           ><i class="fa-regular fa-envelope contact-links"></i
         ></a>
-        <a href="https://www.instagram.com/kia_c_fife/"
+        <a href="https://www.instagram.com/kia_c_fife/" target="_blank"
           ><i class="fa-brands fa-instagram contact-links"></i
         ></a>
-        <a href="#"><i class="fa-brands fa-facebook contact-links"></i></a>
-        <a href="https://github.com/KiaFIfe?tab=repositories"
-          ><i class="fa-brands fa-github"></i
+        <a href="#" target="_blank"
+          ><i class="fa-brands fa-facebook contact-links"></i
+        ></a>
+        <a href="https://github.com/KiaFIfe?tab=repositories" target="_blank"
+          ><i class="fa-brands fa-github contact-links"></i
         ></a>
       </footer>
     </div>
-    <div class="container"></div>
   </body>
 </html>
