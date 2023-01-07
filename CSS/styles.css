@@ -22,16 +22,15 @@ footer {
   padding: 10px;
 }
 .contact-heading {
-  font-size: 50px;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   text-align: center;
 }
 .contact-list {
   text-align: center;
   list-style: none;
   line-height: 1.5;
-  margin: 50px;
-  font-size: 30px;
+  margin: 40px;
+  font-size: 25px;
   font-family: Playfair Display, "Times New Roman", Times, serif;
 }
 .contact-links {
@@ -63,6 +62,7 @@ footer {
   margin-bottom: 15px;
   width: 500px;
 }
+
 .project-images {
   border-radius: 5px;
   width: 200px;
