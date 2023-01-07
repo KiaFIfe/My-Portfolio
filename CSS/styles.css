@@ -21,6 +21,24 @@ h4 {
 footer {
   padding: 10px;
 }
+.nav {
+  transition: 0.3s;
+}
+.projects-link{
+  color: #696d70;
+  text-decoration:none;
+  display: block;
+  text-align: center;
+  transition: 0.2s;
+}
+.projects-link:hover{
+  font-size: 18px;
+  color: #494c4e;
+}
+.nav--hidden {
+  transform: translateY(calc(-1 * 130px));
+  box-shadow: none;
+}
 .contact-heading {
   margin-bottom: 60px;
   text-align: center;
@@ -96,8 +114,8 @@ footer {
 .project-buttons:hover {
   color: #ffff;
   background-color: #696d70;
-font-size: 18px;
-font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .about-para {
