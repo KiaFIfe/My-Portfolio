@@ -81,11 +81,12 @@ nav {
   width: 200px;
   box-shadow: var(--contact-shadow);
 }
-.p-title {
+.project-title {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 100px;
 }
+
 .project-buttons {
   background-color: var(--main-color);
   color: #ffff;
@@ -149,3 +150,4 @@ nav {
     border-radius: 20%;
   }
 }
+
