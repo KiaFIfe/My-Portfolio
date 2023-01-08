@@ -21,11 +21,19 @@ h4 {
 footer {
   padding: 10px;
 }
-h1{
+h1 {
   font-size: 80px;
 }
 nav {
   transition: 0.3s;
+}
+.logo-nav {
+  max-width: 50px;
+}
+.logo {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 500px;
 }
 .projects-link {
   color: #696d70;
@@ -52,7 +60,6 @@ nav {
   line-height: 1.5;
   margin: 40px;
   font-size: 25px;
-  font-family: Playfair Display, "Times New Roman", Times, serif;
 }
 .contact-links {
   color: var(--main-color);
@@ -65,35 +72,14 @@ nav {
   transition: 0.3s;
   margin-top: 0;
 }
-
-.footer-link {
-  color: #fff;
-}
-.work-inquiry {
-  font-size: 50px;
-}
 .head-img {
   width: 358px;
   border-radius: 50%;
 }
-.logo-nav {
-  max-width: 50px;
-}
-.logo {
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 500px;
-}
-
 .project-images {
   border-radius: 5px;
   width: 200px;
   box-shadow: var(--contact-shadow);
-}
-.img-container {
-  opacity: 0.8;
-  width: fit-content;
-  min-height: 350px;
 }
 .p-title {
   text-align: center;
@@ -111,34 +97,14 @@ nav {
   display: block;
   width: fit-content;
   transition: 0.25s;
-}
-.project-buttons {
   margin: 0px auto;
 }
+
 .project-buttons:hover {
   color: #ffff;
   background-color: #696d70;
   font-size: 18px;
   font-weight: 500;
-}
-
-.about-para {
-  background-color: transparent;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 3px;
-  margin-top: 100px;
-}
-.contact-heading {
-  font-size: 70px;
-  margin-top: 100px;
-}
-.email {
-  text-align: center;
-  margin: 30px;
-  font-size: 20px;
-  text-decoration: none;
-  color: #797a7a;
 }
 .work-container {
   opacity: 0.7;
@@ -148,19 +114,13 @@ nav {
 .footer-work-message {
   font-size: 20px;
 }
-.link-email {
-  display: flex;
-  justify-content: center;
-}
-.icons{
+.icons {
   font-size: 30px;
   margin-left: 10px;
 }
-.about-heading{
+.about-heading {
   margin-top: 60px;
-  
 }
-
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -168,23 +128,17 @@ nav {
   h2 {
     font-size: 50px;
   }
-  .top-buttons {
-    margin-top: 60px;
-  }
+
   .logo {
     max-width: 200px;
   }
-  .work-inquiry {
-    display: none;
+  .about-heading {
+    margin-top: 30px;
   }
-  .about-heading{
-  margin-top: 30px;
-  
-}
-.contact-list{
+  .contact-list {
     margin: 30px;
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 }
 @media (max-width: 600px) {
   .footer-work-message {
@@ -193,5 +147,5 @@ nav {
   .head-img {
     width: 204px;
     border-radius: 20%;
-   }
+  }
 }
